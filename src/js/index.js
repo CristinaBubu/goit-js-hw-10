@@ -57,7 +57,5 @@ selectCat.addEventListener("change", (event) => {
   showCats(selectedBreedId);
 });
 
-window.addEventListener("DOMContentLoaded", handler);
-function handler(){
-  select();
-}
+select();
+
